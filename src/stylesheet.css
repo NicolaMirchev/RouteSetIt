@@ -1,0 +1,293 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.backGround{
+    background-image: url('/src/media/Background.jpg');
+    background-repeat:no-repeat;
+
+    background-size:cover!important;    
+}
+.holds-navbar{    
+    height: 50px;
+    width: auto;
+}
+.w3-bar{
+    font-size: larger;
+}
+#team {
+    margin-top: 10px;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: aliceblue;
+    font-weight: bolder;    
+}
+.team-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    margin: 5%;
+    align-items: center;
+
+
+}
+
+.centeredContent{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#contact{
+    margin-top: 80px;
+    background-image: url(./media/ContactPhoto.jpg);
+}
+#media {
+    background-image: url('/src/media/Background.jpg');
+    text-align: center;
+    font-size: larger;
+}
+#media  h2 {
+    padding-top: 5%;
+}
+.media-width{
+ width: 100%;   
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+#services > h2 {
+    padding-top: 2%;
+}
+
+#homeBtn{
+    background-color: white; 
+}
+#homeBtn:hover{
+    color: grey;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+/* Transition for the team section photos */
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .container:hover .setterImg {
+    opacity: 0.3;
+  }
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+.setterImg{
+    max-width: 100%;
+    opacity: 1;
+    display: block;  
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.container{
+    position: relative;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: larger;
+}
+.setter-details{
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.polaroid-effect-container{
+    background-color: rgb(190, 136, 116);
+    text-align: center;
+    padding: 10px 20px;
+}
+.container:hover .polaroid-effect-container {
+    transition: .5s ease;
+    opacity: 0.5;
+}
+
+/* Ends here! */
+
+.youCanTrustUsParagraph{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size:x-large;
+}
+#contactPhoto{
+    width: 20%;
+    height: auto;
+}
+footer {
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.symertry{
+    margin: auto;
+}
+.w3-padding-64{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.setter-settingExperience {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      background-color: rgb(190, 136, 116);
+}
+.setter-settingExperience img {
+    max-width: 100%;
+    flex-basis: 40%;
+}
+.setter-settingExperience > div {
+        font-size: 20px;
+        padding: 10px;
+}
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    padding-top: 5%;
+}
+.contact-grid div p {
+    background-color: rgb(190, 136, 116);
+    margin-top: 0%;
+}
+#contactInfo {
+    background-color: rgb(190, 136, 116);
+    padding: 5%;
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: x-large;
+}
+.job-descripion {
+font-size: larger;
+}
+.job-descripion h2{
+    color: rgb(255, 255, 255);
+    font-weight: bold;  
+    display: inline;
+    background-color: #af940c;
+    padding: 0.7em;
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#teamJobDescription {
+    background-color: rgb(190, 136, 116);
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#services-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+}
+.services-img{
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 100%;
+    max-height: 500px;
+}
+.services-title{
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 4%;
+    border-radius: 5%;
+}
+.services-description{
+    text-align: center;
+    font-size: large;
+    background: rgba(255,255,255, 0.3);
+    border-radius: 5%;
+}
+#services p{
+    font-size: x-large;
+}
+#youtube-link {
+    column-span: 2;
+}
+
+
+
+@media (max-width : 770px){
+    .backGround{
+        background-image: none;
+        background-color: antiquewhite;
+    
+        background-size:cover!important;    
+    }
+
+    .team-table{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    .contact-grid {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #contact{
+        margin-top: 5%;
+        background-image: url('./media/ContactPhoto-phone.jpg');
+    }
+
+    section{
+        margin-top: 5%;
+      color: white;
+      background-color: rgb(0 , 0 , 0 , 0.5);
+      border-radius: 5%;
+      padding: 5%;
+    }
+     
+    #services {
+        background-image: none;
+        background-color: antiquewhite;
+    }
+
+    #services-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    #services-grid div {
+        margin-top: 5%;
+    }
+
+    .setter-settingExperience{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #media {
+        background-image: none;
+        background-color: antiquewhite;
+    }
+
+}
+
