@@ -288,6 +288,9 @@ font-size: larger;
         background-image: none;
         background-color: antiquewhite;
     }
+    .names{
+        color: black;
+    }
 
 }
 

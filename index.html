@@ -76,7 +76,7 @@
 
   <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> Sofia, Bulgaria</p>
   <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i> +359 898 66 5264</p>
-  <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> routeset@it.com</p>
+  <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> routesetit@gmail.com</p>
   <p><i class="fa w3-text-teal w3-xlarge"></i>&copy; RoutesetIt 2022</p>
   <p></p>
 
@@ -96,6 +96,7 @@ function openNav() {
   var x = document.getElementById("navDemo");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
+    x.addEventListener('click', () =>  x.className = x.className.replace(" w3-show", ""));
   } else { 
     x.className = x.className.replace(" w3-show", "");
   }
