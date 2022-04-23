@@ -40,6 +40,17 @@ export const members = [{
                         details : 'Dimitar, a.k.a Mitaka is the youngest, but definitely not the weakest member of our group. He is only 18 years, but his creativity and intelligence will make you feel younger in the situation. He is still in the competitions and heavy trainings which is great opportunity for our team when he is back from another europe championship and tells us about everything new and how current competitors perceive the climbing and styles of the routes.',
                         details2 : 'Mitaka works diligently and always aims for the best of the situation. His perfectionism is sometimes annoying for his mates, but definitely gives the best results. Mitaka has already participated in setting for gyms and often he has to do it for himself and better prepare for the competitions. His motivation for live and sports discipline is what makes the workflow pleasant and  optimal.',
                         id : '4'
+                },
+                {
+                        name : 'Matey Micev',
+                        img : '../src/media/Matey-1.jpg',
+                        img2 : '../src/media/Matey-2.jpg',
+                        img3 : '../src/media/Matey-3.jpg',
+                        hardestBoulder : '7c+',
+                        harderstRoute : '8b',
+                        details : 'Matey is another young and an active competitor member of our team. His motivation about climbing is on another level. Everything in his daily routine is related to this kind of movement and everything that he does is to improve his skills, cooperating abilities and to contribute to the community. Motivation and dedication is what makes the professionalists good at their jobs and Matey is a 100% of both.',
+                        details2 : 'He is currently in the national team and often travels in the Europe\'s best gyms which is a great opportunity for our team, because his observations keep us up to date to the last detail. He also actively climbs on rocks. Competitor who enjoys rocks is the best kind of routesetter, because practically all sorts of movements that can be done from human physics pass through this routesetter on a daily basis. We are so glad to have such a member in our team.' ,
+                        id : '5'
                 }                     
                     ];
 
