@@ -233,10 +233,28 @@ font-size: larger;
 #youtube-link {
     column-span: 2;
 }
+@media (min-width : 760px){
+    #logoText{
+        height: 80px;
+    }
+    #logoTextOnSmallScreen{
+        display: none;
+    }
+}
+@media (min-width : 1200px){
+    #logoText{
+        height: 80px;
+        padding-left: 10%;
+    }
+    #logoTextOnSmallScreen{
+        display: none;
+    }
+}
 
 
 
-@media (max-width : 770px){
+
+@media (max-width : 760px){
     .backGround{
         background-image: none;
         background-color: antiquewhite;
@@ -292,5 +310,13 @@ font-size: larger;
         color: black;
     }
 
+    #logoText{
+        display: none;
+    }
+    #logoTextOnSmallScreen{
+        height: 30px;
+        padding-top: 2%;
+        padding-left: 2%;
+    }
 }
 
