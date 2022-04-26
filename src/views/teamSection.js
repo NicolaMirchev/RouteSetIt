@@ -26,7 +26,7 @@ const teamSectionTemplate = (members) => html`
                 <a href="/details/${member.id}" class="setter-details">Details</a>                      
          </div>
          <div class="polaroid-effect-container"><div>${member.name}</div>
-            <div>Harderst route: ${member.harderstRoute}  Hardest boulder: ${member.hardestBoulder}</div></div> 
+            <div>Harderst route: ${member.harderstRoute} <br>  Hardest boulder: ${member.hardestBoulder}</div></div> 
         </section>
           `)}
     </article>
