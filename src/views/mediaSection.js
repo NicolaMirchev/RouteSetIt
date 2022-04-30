@@ -7,7 +7,7 @@ const mediaSectionTemplate = (photos) => html`
 
 <div class="media-width">
 <h2>Our Work</h2>
-<p>Here we upload materials like video and photo of projects that we have accomplished. We also post in our social medias.</p>
+<p>Here we upload materials like video and photos of projects that we have accomplished. You can visualize our work better from our <a href="https://www.instagram.com/routesetit/" target="blank">social media</a>.</p>
 <div class="iframe-container">
 <iframe id="youtube-link" src="https://www.youtube.com/embed/mRD62UapYEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
