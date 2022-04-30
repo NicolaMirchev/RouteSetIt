@@ -13,7 +13,7 @@ const contactSectionTemplate = () => html`
       
              <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> Sofia, Bulgaria</p>
              <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i> +359 8986 652 64</p>
-             <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> routesetit@gmail.com</p>
+             <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i> <a href="mailto:routesetit@gmail.com">routesetit@gmail.com</a></p>
          
       </section>
      <section>
