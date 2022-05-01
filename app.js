@@ -10,7 +10,7 @@ const root = document.querySelector('main');
 
 page(decorateContext);
 page('/', teamPage);
-page('/team', teamPage);
+page('/index.html', teamPage);
 page('/media', mediaPage);
 page('/services', servicesPage);
 page('/contact', contactPage);
