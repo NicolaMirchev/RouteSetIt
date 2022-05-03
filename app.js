@@ -10,11 +10,11 @@ const root = document.querySelector('main');
 
 page(decorateContext);
 page('/', teamPage);
-page('https://routesetit.com/index.html', teamPage);
-page('https://routesetit.com/media', mediaPage);
-page('https://routesetit.com/services', servicesPage);
-page('https://routesetit.com/contact', contactPage);
-page('https://routesetit.com/details/:id', detailsPage);
+page('/index.html', teamPage);
+page('/media', mediaPage);
+page('/services', servicesPage);
+page('/contact', contactPage);
+page('/details/:id', detailsPage);
 
 
 page.start();
