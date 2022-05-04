@@ -1,8 +1,8 @@
 https://routesetit.com/?/media
 https://routesetit.com/?/services
-https://routesetit.com/contact
-https://routesetit.com/?/details/1
-https://routesetit.com/details/2
-https://routesetit.com/details/3
-https://routesetit.com/details/4
-https://routesetit.com/details/5
+https://routesetit.com/?/contact
+https://routesetit.com/?/details/?/1
+https://routesetit.com/?/details/2
+https://routesetit.com/?/details/3
+https://routesetit.com/?/details/4
+https://routesetit.com/?/details/5
