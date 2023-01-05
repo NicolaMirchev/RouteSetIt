@@ -19,8 +19,7 @@ const detailsSectionTemplate = (member) => html`
          
             <div class="setter-settingExperience" > 
                 <div> <img src="${member.img3}" alt="${member.name}"> </div>
-                <div> ${member.details2} ${member.id == '1' ? html`<a href="/src/media/Emo-info.pdf">Here</a> you can
-                learn more about his climbing` : null} </div>
+                <div> ${member.details2} </div>
             </div>
 
          </div>
