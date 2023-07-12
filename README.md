@@ -10,4 +10,6 @@ ideas!
 
 ## Realization & Technologies
 For the deployment used lit-html templating library from npm and also page.js about routing the single app view. 
-Added 404 file to redirect users, because git hub pages does not support single page views. Store the data in JS file
+Added 404 file to redirect users, because git hub pages does not support single page views. Store the data in JS file.
+
+Currently it is being hosted at https://routesetit.com.
